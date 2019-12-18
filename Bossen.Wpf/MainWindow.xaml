@@ -23,7 +23,7 @@
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="124" Margin="409,59,0,0" VerticalAlignment="Top" Width="175"/>
         <ComboBox x:Name="cmbBoomSoortTelling" HorizontalAlignment="Left" Margin="416,78,0,0" VerticalAlignment="Top" Width="120" />
         <Label x:Name="lblAantal" Content="0" HorizontalAlignment="Left" Margin="546,111,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="24"/>
-        <ComboBox HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" Width="104"/>
+        <ComboBox x:Name="cmbBos" HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" Width="104"/>
         <Label Content="Bos" HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblAantal_Copy" Content="0" HorizontalAlignment="Left" Margin="546,142,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="24"/>
         <Label Content="Huidig bos" HorizontalAlignment="Left" Margin="416,111,0,0" VerticalAlignment="Top" Width="120"/>

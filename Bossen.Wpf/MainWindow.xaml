@@ -1,0 +1,33 @@
+﻿<Window x:Class="Bossen.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bossen.Wpf"
+        mc:Ignorable="d"
+        Title="Bossen"  Height="330" Width="605">
+    <Grid>
+        <Label Content="Bomen" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="77"/>
+        <Grid Margin="10,41,193,37">
+            <ListBox x:Name="lstBomen" HorizontalAlignment="Left" Height="205" VerticalAlignment="Top" Width="146" />
+            <Label Content="Naam:" HorizontalAlignment="Left" Margin="169,0,0,0" VerticalAlignment="Top" Width="76"/>
+            <TextBox x:Name="txtBoomNaam" HorizontalAlignment="Left" Height="23" Margin="260,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Soort:" HorizontalAlignment="Left" Margin="169,70,0,0" VerticalAlignment="Top" Width="76"/>
+            <ComboBox x:Name="cmbBoomSoort" HorizontalAlignment="Left" Margin="260,74,0,0" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Hoogte:" HorizontalAlignment="Left" Margin="169,34,0,0" VerticalAlignment="Top" Width="76"/>
+            <TextBox x:Name="txtHoogte" HorizontalAlignment="Left" Height="23" Margin="260,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+        <Button x:Name="btnNieuw" Content="Nieuw" HorizontalAlignment="Left" Margin="181,163,0,0" VerticalAlignment="Top" Width="56" />
+        <Button x:Name="btnVerwijder" Content="Verwijder" HorizontalAlignment="Left" Margin="337,163,0,0" VerticalAlignment="Top" Width="56" />
+        <Button x:Name="btnOpslaan" Content="Opslaan" HorizontalAlignment="Left" Margin="260,163,0,0" VerticalAlignment="Top" Width="56" />
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="124" Margin="409,59,0,0" VerticalAlignment="Top" Width="175"/>
+        <ComboBox x:Name="cmbBoomSoortTelling" HorizontalAlignment="Left" Margin="416,78,0,0" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="lblAantal" Content="0" HorizontalAlignment="Left" Margin="546,111,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="24"/>
+        <ComboBox HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" Width="104"/>
+        <Label Content="Bos" HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAantal_Copy" Content="0" HorizontalAlignment="Left" Margin="546,142,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="24"/>
+        <Label Content="Huidig bos" HorizontalAlignment="Left" Margin="416,111,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Alle Bossen" HorizontalAlignment="Left" Margin="416,142,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
